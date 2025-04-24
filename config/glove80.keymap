@@ -389,12 +389,12 @@
 
         layer_Short {
             bindings = <
-&trans &trans &trans &trans &trans                                                                                    &trans     &trans &trans &trans     &trans
-&trans &trans &trans &trans &trans &trans                                                                      &trans &trans     &trans &trans &trans     &trans
-&trans &trans &trans &trans &trans &kp MEH(T)                                                                  &trans &trans     &trans &trans &kp MEH(P) &trans
-&trans &trans &trans &trans &trans &trans                                                                      &trans &kp MEH(J) &trans &trans &trans     &trans
-&trans &trans &trans &trans &trans &trans     &trans         &kp LA(LC(TAB)) &trans &trans &trans &trans       &trans &trans     &trans &trans &trans     &trans
-&trans &trans &trans &trans &trans            &kp MEH(SPACE) &trans          &trans &trans &tog 3 &kp MEH(RET)        &trans     &trans &trans &trans     &trans
+&trans &trans &trans     &trans     &trans                                                                                        &trans     &trans &trans &trans     &trans
+&trans &trans &trans     &trans     &trans     &trans                                                                      &trans &trans     &trans &trans &trans     &trans
+&trans &trans &trans     &trans     &trans     &kp MEH(T)                                                                  &trans &trans     &trans &trans &kp MEH(P) &trans
+&trans &trans &kp MEH(S) &trans     &kp MEH(F) &kp MEH(G)                                                                  &trans &kp MEH(J) &trans &trans &trans     &trans
+&trans &trans &trans     &kp MEH(C) &trans     &trans     &trans         &kp LA(LC(TAB)) &trans &trans &trans &trans       &trans &trans     &trans &trans &trans     &trans
+&trans &trans &trans     &trans     &trans                &kp MEH(SPACE) &trans          &trans &trans &tog 3 &kp MEH(RET)        &trans     &trans &trans &trans     &trans
             >;
         };
 
