@@ -11,8 +11,8 @@ jobs:
           submodules: recursive
       - uses: actions/checkout@v4
         with:
-          repository: zhyu/zmk
-          ref: zhyu
+          repository: moergo-sc/zmk
+          ref: v25.01
           path: src
       - uses: cachix/install-nix-action@v25
         with:
